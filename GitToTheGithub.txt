@@ -1,0 +1,10 @@
+1.进入项目的文件夹：git init
+2.把所有的文件添加到仓库：git add .
+3.执行指令：git commit -m "提交文件"  双引号内是提交注释。
+4.关联Github仓库 
+先到github text仓库复制仓库地址 例如https://github.com/hanyuntao/text.git
+5.git remote add origin https://github.com/hanyuntao/text.git
+6.可以通过如下命令进行代码合并【注：pull=fetch+merge]
+git pull --rebase origin master 产生README.md文件
+7.上传本地代码
+git push -u origin master
